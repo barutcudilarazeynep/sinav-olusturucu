@@ -54,8 +54,8 @@ const Dashboard = ({ onStartExam }) => {
     return (
         <div className="dashboard-container">
             <header className="dashboard-header">
-                <h1>Sınav Oluşturucu</h1>
-                <p className="subtitle">Soru yükleyin, karıştırılmış kitapçıkları indirin</p>
+                <h1>📝 Sınav Oluşturucu</h1>
+                <p className="subtitle">Soru yükleyin, karıştırılmış kitapçıkları indirin • v1.1</p>
                 <div className="actions">
                     <button className="primary-btn" onClick={handleDownloadA}>📥 A Kitapçığını İndir</button>
                     <button className="primary-btn" onClick={handleDownloadB}>📥 B Kitapçığını İndir</button>
